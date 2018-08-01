@@ -1,0 +1,8 @@
+<resources>
+    <string name="UygulamaAdi">Yakala</string>
+    <string name="Soru_DevamEtmekIsterMisin">Devam Etmek İster misin?</string>
+    <string name="Bilgi_DevamButonunaBasin">Devam etmek için Evet Butonuna basın.</string>
+    <string name="Cevap_Istemiyorum">Oynamak İstemiyorum</string>
+    <string name="Cevap_Istiyorum">Oynamak İstiyorum</string>
+    <string name="Mesaj_Tesekkurler">Teşekkürler...</string>
+</resources>

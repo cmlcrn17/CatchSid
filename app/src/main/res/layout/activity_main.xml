@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cerenerdem.MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="360dp"
+        android:layout_height="330dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_sid"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="0"
+            android:onClick="increaseScor"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid2"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="1"
+            android:onClick="increaseScor"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid3"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:onClick="increaseScor"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sid" />
+
+
+        <ImageView
+            android:id="@+id/img_sid4"
+            android:layout_width="120dp"
+            android:onClick="increaseScor"
+            android:layout_height="105dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid5"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="1"
+            android:onClick="increaseScor"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid6"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="2"
+            android:onClick="increaseScor"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid7"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="0"
+            android:onClick="increaseScor"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid8"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="1"
+            android:onClick="increaseScor"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sid" />
+
+        <ImageView
+            android:id="@+id/img_sid9"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            app:layout_column="2"
+            android:onClick="increaseScor"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sid" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/txt_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Time:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Score:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
